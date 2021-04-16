@@ -6,6 +6,7 @@ function turnLeft () {
     turtle.turnLeft()
 }
 function back () {
+    turtle.pen(TurtlePenMode.Down)
     turtle.back(1)
 }
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
